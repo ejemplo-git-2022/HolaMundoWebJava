@@ -6,14 +6,11 @@
 <%
 	ArrayList<Persona> personas = (ArrayList<Persona>) request.getAttribute("personas");
 %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-<table>
+
+<jsp:include page="template_superior.jsp" />
+
+<h1>Listado de personas</h1>
+<table class="table">
 	<tr>
 		<th>Id</th><th>Nombre</th><th>Apellido</th><th>Edad</th>
 	</tr>
@@ -21,5 +18,6 @@
 		<tr><td><%= p.getIdPersona() %></td><td><%= p.getNombre() %></td><td><%= p.getApellido() %></td><td><%= p.getEdad() %></td></tr>
 	<% } %>
 </table>
-</body>
-</html>
+
+
+<jsp:include page="template_inferior.jsp" />
