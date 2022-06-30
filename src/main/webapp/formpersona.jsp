@@ -30,12 +30,20 @@
     		<input type="email" name="campoEmail"  class="form-control" placeholder="Ej: pepe@midominio.com" required>
   		</div>
 
+		<div class="form-group">
+    		<label for="exampleInputPassword1">CUIT</label>
+    		<input type="text" name="campoCUIT" class="form-control" pattern="^[0-9]{2}-[0-9]{8}-[0-9]$" placeholder="Ej: 20-423423423-3" required>
+  		</div>
+
+
 
 		<button class="btn btn-primary" type="submit">Enviar datos</button>
 	</form>
 
 	<script>
 		$(document).ready(function() {
+			$.validator.messages.pattern = 'Formato incorrecto';
+
 			$('#form-persona').validate();
 		});
 	</script>

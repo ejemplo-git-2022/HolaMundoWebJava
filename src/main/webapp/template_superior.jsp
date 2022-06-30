@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 
 		<script type="text/javascript" src="js/jquery.validate.js"></script>
+		<script type="text/javascript" src="js/additional-methods.js"></script>
 		<script type="text/javascript" src="js/messages_es.js"></script>
 
 		<link rel="stylesheet" href="css/bootstrap.css">
