@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 
 
 <jsp:include page="template_superior.jsp" />
@@ -25,6 +24,11 @@
     		<input type="number" name="campoEdad" class="form-control" min="0" max="200" size="10" maxlength="3" placeholder="Edad" required>
   		</div>  		
 		
+
+		<div class="form-group">
+    		<label for="exampleInputPassword1">Email</label>
+    		<input type="email" name="campoEmail"  class="form-control" placeholder="Ej: pepe@midominio.com" required>
+  		</div>
 
 
 		<button class="btn btn-primary" type="submit">Enviar datos</button>

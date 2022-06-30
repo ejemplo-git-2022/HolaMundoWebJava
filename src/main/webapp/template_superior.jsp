@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="ISO-8859-1">
+		<meta charset="UTF-8" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Ejemplo template</title>
 		<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
@@ -12,6 +12,8 @@
 		<script type="text/javascript" src="js/messages_es.js"></script>
 
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/general.css">
+		
 		<style type="text/css">
 			body {
 				padding-top: 60px;
